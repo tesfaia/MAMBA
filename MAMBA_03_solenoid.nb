@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     97752,       2218]
-NotebookOptionsPosition[     96004,       2187]
-NotebookOutlinePosition[     96378,       2203]
-CellTagsIndexPosition[     96335,       2200]
+NotebookDataLength[     97759,       2197]
+NotebookOptionsPosition[     96011,       2166]
+NotebookOutlinePosition[     96385,       2182]
+CellTagsIndexPosition[     96342,       2179]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -27,66 +27,48 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{
    RowBox[{
-    SubscriptBox["B", "0"], "=", "3"}], ";"}], " ", 
-  RowBox[{"(*", " ", 
-   RowBox[{"Magnetic", " ", "field", " ", "in", " ", "T"}], " ", 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{
     SubscriptBox["\[Gamma]", "Proton"], "=", 
     RowBox[{"2.675222", "*", 
-     RowBox[{"10", "^", "8"}]}]}], ";"}], " ", 
-  RowBox[{"(*", " ", 
-   RowBox[{"Gyromagnetic", " ", "constant", " ", "in", " ", 
-    RowBox[{"rad", "/", 
-     RowBox[{"(", 
-      RowBox[{"T", " ", "s"}], ")"}]}]}], " ", 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
+     RowBox[{"10", "^", "8"}]}]}], ";", " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Gyromagnetic", " ", "constant", " ", "in", " ", 
+     RowBox[{"rad", "/", 
+      RowBox[{"(", 
+       RowBox[{"T", " ", "s"}], ")"}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     SubscriptBox["\[Micro]", "0"], "=", 
     RowBox[{"4", " ", "\[Pi]", "*", 
      RowBox[{"10", "^", 
-      RowBox[{"-", "7"}]}]}]}], " ", ";"}], " ", 
-  RowBox[{"(*", " ", 
-   RowBox[{"Magnetic", " ", "field", " ", "constant", " ", "in", " ", 
-    RowBox[{"N", "/", 
-     SuperscriptBox["A", "2"]}]}], " ", "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
+      RowBox[{"-", "7"}]}]}]}], " ", ";", " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Magnetic", " ", "field", " ", "constant", " ", "in", " ", 
+     RowBox[{"N", "/", 
+      SuperscriptBox["A", "2"]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     SubscriptBox["\[Rho]", "Cu"], "=", 
     RowBox[{"1.678", "*", 
      RowBox[{"10", "^", 
-      RowBox[{"-", "8"}]}]}]}], ";"}], " ", 
-  RowBox[{"(*", " ", 
-   RowBox[{
-   "electrical", " ", "resistivity", " ", "of", " ", "copper", " ", "in", " ",
-     "\[CapitalOmega]", " ", "m"}], " ", "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
+      RowBox[{"-", "8"}]}]}]}], ";", " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "electrical", " ", "resistivity", " ", "of", " ", "copper", " ", "in", 
+     " ", "\[CapitalOmega]", " ", "m"}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     SubscriptBox["\[Rho]", "DensityCu"], "=", 
     RowBox[{"8.96", "*", 
-     RowBox[{"10", "^", "3"}]}]}], ";"}], " ", 
-  RowBox[{"(*", 
-   RowBox[{"Density", " ", "of", " ", "Copper", " ", "in", " ", 
-    RowBox[{"kg", "/", 
-     RowBox[{"m", "^", "3"}]}]}], "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
+     RowBox[{"10", "^", "3"}]}]}], ";", " ", 
+   RowBox[{"(*", 
+    RowBox[{"Density", " ", "of", " ", "Copper", " ", "in", " ", 
+     RowBox[{"kg", "/", 
+      RowBox[{"m", "^", "3"}]}]}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     SubscriptBox["\[Omega]", "Larmor"], "=", 
     RowBox[{
      SubscriptBox["\[Gamma]", "Proton"], " ", 
-     SubscriptBox["B", "0"]}]}], ";"}], " ", 
-  RowBox[{"(*", " ", 
-   RowBox[{"Larmor", " ", "angle", " ", "frequency", " ", "in", " ", 
-    RowBox[{"rad", "/", "s"}]}], " ", "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
+     SubscriptBox["B", "0"]}]}], ";", " ", 
+   RowBox[{"(*", " ", 
+    RowBox[{"Larmor", " ", "angle", " ", "frequency", " ", "in", " ", 
+     RowBox[{"rad", "/", "s"}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     SubscriptBox["f", "Larmor"], "=", 
     RowBox[{
@@ -99,10 +81,9 @@ Cell[BoxData[{
     RowBox[{"1", "/", "s"}]}], " ", "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
-   RowBox[{
-    SubscriptBox["c", "Copper"], "=", 
-    RowBox[{"0.385", "*", 
-     RowBox[{"10", "^", "3"}]}]}], ";"}], 
+   SubscriptBox["c", "Copper"], "=", 
+   RowBox[{"0.385", "*", 
+    RowBox[{"10", "^", "3"}]}]}], ";", 
   RowBox[{"(*", 
    RowBox[{"Heat", " ", "capacity", " ", "of", " ", "copper", " ", "in", " ", 
     RowBox[{"J", "/", 
@@ -117,61 +98,51 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{"12", " ", "legs"}], " ", "=", "3.863"}], ",", " ", 
     RowBox[{
-     RowBox[{"16", " ", "legs"}], " ", "=", " ", "5.126"}]}], " ", 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
+     RowBox[{"16", " ", "legs"}], " ", "=", " ", "5.126"}]}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
   RowBox[{
-   RowBox[{
-    SubscriptBox["C", "leg"], "=", 
-    RowBox[{"18", "*", 
-     SuperscriptBox["10", 
-      RowBox[{"-", "12"}]]}]}], ";"}], 
+   SubscriptBox["C", "leg"], "=", 
+   RowBox[{"18", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "12"}]]}]}], ";", 
   RowBox[{"(*", " ", 
    RowBox[{"Capacitance", " ", "per", " ", "leg", " ", "or", " ", "section"}],
-    "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
+    "*)"}], "\[IndentingNewLine]", 
   RowBox[{
-   RowBox[{
-    SubscriptBox["N", "leg"], "=", "32"}], ";"}], 
+   SubscriptBox["N", "leg"], "=", "32"}], ";", 
   RowBox[{"(*", 
-   RowBox[{"Total", " ", "number", " ", "of", " ", "legs"}], 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"\[Rho]", "=", 
-    RowBox[{"1.68", "*", 
-     SuperscriptBox["10", 
-      RowBox[{"-", "8"}]]}]}], ";"}], 
+   RowBox[{"Total", " ", "number", " ", "of", " ", "legs"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"\[Rho]", "=", 
+   RowBox[{"1.68", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "8"}]]}]}], ";", 
   RowBox[{"(*", " ", 
    RowBox[{
     RowBox[{
     "conductor", " ", "electrical", " ", "resistivity", " ", "in", " ", 
-     "\[CapitalOmega]", " ", "m"}], " ", "-", " ", "copper"}], 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"\[Mu]", "=", 
-    RowBox[{"4", "*", "\[Pi]", "*", 
-     SuperscriptBox["10", 
-      RowBox[{"-", "7"}]]}]}], ";"}], 
+     "\[CapitalOmega]", " ", "m"}], " ", "-", " ", "copper"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"\[Mu]", "=", 
+   RowBox[{"4", "*", "\[Pi]", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "7"}]]}]}], ";", 
   RowBox[{"(*", " ", 
-   RowBox[{"magnetic", " ", "permeability"}], "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
+   RowBox[{"magnetic", " ", "permeability"}], "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    SubscriptBox["k", "B"], "=", 
    RowBox[{"1.38065", "*", 
     RowBox[{"10", "^", 
      RowBox[{"-", "23"}]}]}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{
-   RowBox[{"\[Delta]", "=", 
-    SqrtBox[
-     FractionBox["\[Rho]", 
-      RowBox[{"\[Pi]", "*", "f", "*", "\[Mu]"}]]]}], ";"}], " ", 
+  RowBox[{"\[Delta]", "=", 
+   SqrtBox[
+    FractionBox["\[Rho]", 
+     RowBox[{"\[Pi]", "*", "f", "*", "\[Mu]"}]]]}], ";", " ", 
   RowBox[{"(*", " ", 
    RowBox[{
    "Skin", " ", "effect", " ", "for", " ", "copper", " ", "at", " ", 
-    "selected", " ", "frequency"}], "*)"}]}], "\[IndentingNewLine]"}], "Input",
+    "selected", " ", "frequency"}], "*)"}], "\[IndentingNewLine]"}]}], "Input",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.},
  CellChangeTimes->{{3.5614519239724913`*^9, 3.5614519245341*^9}, {
    3.561458352365791*^9, 3.561458419314247*^9}, {3.5614635874451795`*^9, 
@@ -187,8 +158,10 @@ Cell[BoxData[{
    3.7274242503935504`*^9}, {3.7274254108188286`*^9, 
    3.7274254113171964`*^9}, {3.7274254423562155`*^9, 3.7274254428475904`*^9}, 
    3.727507916674343*^9, {3.7402891387420425`*^9, 3.7402891414609003`*^9}, 
-   3.795966259511771*^9, {3.796464200702982*^9, 3.7964642009515915`*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"342f2510-b3c6-4680-b2f9-720093e21d2e"],
+   3.795966259511771*^9, {3.796464200702982*^9, 3.7964642009515915`*^9}, {
+   3.797761366278577*^9, 
+   3.7977613665865355`*^9}},ExpressionUUID->"342f2510-b3c6-4680-b2f9-\
+720093e21d2e"],
 
 Cell[BoxData[
  RowBox[{
@@ -1874,91 +1847,95 @@ Cell[BoxData[
 ($CellContext`wmax$$ + $CellContext`pitch$$); $CellContext`lw = 
          Sqrt[(Pi $CellContext`dc$$)^2 + ($CellContext`pitch$$ + \
 $CellContext`wmax$$)^2] $CellContext`nmax$$; $CellContext`Lsol = \
-$CellContext`Profil$$ (10 4 Pi 10^(-7) 
-            3.14 $CellContext`nmax$$^2 ($CellContext`dc$$/2)^2/(
-            9 ($CellContext`dc$$/2) + 
-            10 ($CellContext`nmax$$ ($CellContext`wmax$$ + \
-$CellContext`pitch$$)))) + ($CellContext`Profil$$ - 1) (10 4 Pi 10^(-7) 
-            3.14 $CellContext`nmax$$^2 ($CellContext`dc$$/2)^2/(
-            9 ($CellContext`dc$$/2) + 
-            10 ($CellContext`nmax$$ ($CellContext`wmax$$ + \
-$CellContext`pitch$$)))); $CellContext`Lsol1 = $CellContext`Lsol 
-          10^9; $CellContext`intrinC = 
-         8.85 10^(-12) (($CellContext`wmax$$ + $CellContext`t$$ 
-             10^(-6)) ($CellContext`lc + $CellContext`t$$ 
-             10^(-6))/($CellContext`nmax$$ $CellContext`t$$ 
-           10^(-6))); $CellContext`EquC = 
-         10^12/((2 3.14 $CellContext`fres$$ 
-            10^6)^2 $CellContext`Lsol); $CellContext`limit = (3 
-           10^8/($CellContext`fres$$ 10^6)) (1/Sqrt[2.632]) (
-           
+$CellContext`Profil$$ ((((((10 4) Pi) 10^(-7)) 
+              3.14) $CellContext`nmax$$^2) (($CellContext`dc$$/2)^2/(
+             9 ($CellContext`dc$$/2) + 
+             10 ($CellContext`nmax$$ ($CellContext`wmax$$ + \
+$CellContext`pitch$$))))) + ($CellContext`Profil$$ - 
+            1) ((((((10 4) Pi) 10^(-7)) 
+              3.14) $CellContext`nmax$$^2) (($CellContext`dc$$/2)^2/(
+             9 ($CellContext`dc$$/2) + 
+             10 ($CellContext`nmax$$ ($CellContext`wmax$$ + \
+$CellContext`pitch$$))))); $CellContext`Lsol1 = $CellContext`Lsol 
+          10^9; $CellContext`intrinC = (8.85 
+           10^(-12)) (($CellContext`wmax$$ + $CellContext`t$$ 
+             10^(-6)) (($CellContext`lc + $CellContext`t$$ 
+              10^(-6))/(($CellContext`nmax$$ $CellContext`t$$) 
+            10^(-6)))); $CellContext`EquC = 
+         10^12/((((2 3.14) $CellContext`fres$$) 
+            10^6)^2 $CellContext`Lsol); $CellContext`limit = ((
+            3 (10^8/($CellContext`fres$$ 10^6))) (1/Sqrt[2.632])) (
            1/$CellContext`Segmentation$$); $CellContext`gapnumber = \
 $CellContext`lw/$CellContext`limit; 
-        NumberForm[$CellContext`gapnumber, {1, 0}]; $CellContext`B1 = 
-         2 Pi $CellContext`nmax$$/
-          Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2]; 
-        Subscript[$CellContext`R, $CellContext`sm] = (1/16) 
-          Pi $CellContext`cond$$ (2 Pi $CellContext`fres$$ 
-            10^6)^2 $CellContext`lsample$$ ($CellContext`nmax$$ 4 Pi 10^(-7)/
-            Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2])^2 \
-($CellContext`dsample$$/2)^4 (
-           1 + (2 Pi $CellContext`fres$$ 10^6 $CellContext`eperm$$ 8.854 
-             10^(-12)/(
-             6 $CellContext`cond$$)) ($CellContext`dsample$$/(2 
-              Sqrt[2/(4 Pi 10^(-7) 2 Pi $CellContext`fres$$ 
-                10^6 $CellContext`cond$$)]))^2 - (11/
+        NumberForm[$CellContext`gapnumber, {1, 
+          0}]; $CellContext`B1 = (2 Pi) ($CellContext`nmax$$/
+           Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2]); 
+        Subscript[$CellContext`R, $CellContext`sm] = (((((((1/16) 
+                Pi) $CellContext`cond$$) (((2 Pi) $CellContext`fres$$) 
+                10^6)^2) $CellContext`lsample$$) ((($CellContext`nmax$$ 4) 
+               Pi) (10^(-7)/
+               Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2]))^2) \
+($CellContext`dsample$$/2)^4) (
+           1 + ((((((2 Pi) $CellContext`fres$$) 10^6) $CellContext`eperm$$) 
+              8.854) (10^(-12)/(
+              6 $CellContext`cond$$))) ($CellContext`dsample$$/(2 
+              Sqrt[2/(((((((4 Pi) 10^(-7)) 2) Pi) $CellContext`fres$$) 
+                 10^6) $CellContext`cond$$)]))^2 - (11/
             96) ($CellContext`dsample$$/(2 
-             Sqrt[2/(4 Pi 10^(-7) 2 Pi $CellContext`fres$$ 
-               10^6 $CellContext`cond$$)]))^4); 
+             Sqrt[2/(((((((4 Pi) 10^(-7)) 2) Pi) $CellContext`fres$$) 
+                10^6) $CellContext`cond$$)]))^4); 
         Subscript[K, $CellContext`c] = 
          1 + 1 (0.06 + 
             0.22 Log[$CellContext`wmax$$/($CellContext`t$$ 10^(-6))] + 
             0.28 (($CellContext`t$$ 10^(-6))/$CellContext`wmax$$)^2); 
         Null); $CellContext`Racrec = ($CellContext`\[Rho] \
-($CellContext`lw/($CellContext`wmax$$ $CellContext`t$$ 10^(-6)))) (
+($CellContext`lw/(($CellContext`wmax$$ $CellContext`t$$) 10^(-6)))) (
           Subscript[K, $CellContext`c]/(1 - 
-          E^((-2) (
-            Sqrt[$CellContext`\[Rho]/(
-              Pi $CellContext`fres$$ $CellContext`\[Mu])]/($CellContext`t$$ 
-            10^(-6))) (
-            1 + $CellContext`t$$ 
-             10^(-6)/$CellContext`wmax$$)))); $CellContext`Raclg = 
-        2 Sqrt[4 Pi 10^(-7) Pi $CellContext`fres$$ 10^6/(5.8 10^7)] ((
+          E^(((-2) (
+             Sqrt[$CellContext`\[Rho]/((
+                Pi $CellContext`fres$$) \
+$CellContext`\[Mu])]/($CellContext`t$$ 10^(-6)))) (
+            1 + $CellContext`t$$ (
+              10^(-6)/$CellContext`wmax$$))))); $CellContext`Raclg = (2 
+          Sqrt[((((4 Pi) 10^(-7)) Pi) $CellContext`fres$$) (10^6/(5.8 
+             10^7))]) ((
            Pi ($CellContext`dc$$/2) + $CellContext`wmax$$/3)/$CellContext`lc); 
        Subscript[$CellContext`\[Delta], $CellContext`skin] = 
-        Sqrt[$CellContext`\[Rho]/(
-          Pi $CellContext`fres$$ $CellContext`\[Mu])]; $CellContext`a2 = \
-$CellContext`im (($CellContext`fres$$ (2 Pi/
-            Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2]))/(
-           3 6 ($CellContext`dc$$/2)/($CellContext`lc 5.96 10^7 
-            Sqrt[2/(4 Pi 10^(-7) 2 Pi 123 10^6 5.96 
-              10^7)]) + $CellContext`Rx + $CellContext`y$$ (1/16) 
-            Pi $CellContext`cond$$ (2 Pi $CellContext`fres$$ 
-              10^6)^2 $CellContext`lsample$$ (4 Pi 10^(-7)/
-              
-              Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2])^2 \
-($CellContext`dsample$$/2)^4 (
-             1 + (2 Pi $CellContext`fres$$ 10^6 $CellContext`eperm$$ 8.854 
-               10^(-12)/(
-               6 $CellContext`cond$$)) ($CellContext`dsample$$/(2 
-                Sqrt[2/(4 Pi 10^(-7) 2 Pi $CellContext`fres$$ 
-                  10^6 $CellContext`cond$$)]))^2 - (11/
+        Sqrt[$CellContext`\[Rho]/((
+           Pi $CellContext`fres$$) $CellContext`\[Mu])]; $CellContext`a2 = \
+$CellContext`im (($CellContext`fres$$ (
+            2 (Pi/Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2])))/((3 
+             6) (($CellContext`dc$$/2)/((($CellContext`lc 5.96) 10^7) 
+             Sqrt[
+              2/((((((((4 Pi) 10^(-7)) 2) Pi) 123) 10^6) 5.96) 
+               10^7)])) + $CellContext`Rx + ((((((($CellContext`y$$ (1/16)) 
+                  Pi) $CellContext`cond$$) (((2 Pi) $CellContext`fres$$) 
+                  10^6)^2) $CellContext`lsample$$) ((4 Pi) (10^(-7)/
+                 Sqrt[$CellContext`dc$$^2 + $CellContext`lc^2]))^2) \
+($CellContext`dsample$$/2)^4) (
+             1 + ((((((2 Pi) $CellContext`fres$$) 10^6) $CellContext`eperm$$) 
+                8.854) (10^(-12)/(
+                6 $CellContext`cond$$))) ($CellContext`dsample$$/(2 
+                Sqrt[2/(((((((4 Pi) 10^(-7)) 2) Pi) $CellContext`fres$$) 
+                   10^6) $CellContext`cond$$)]))^2 - (11/
               96) ($CellContext`dsample$$/(2 
-               Sqrt[2/(4 Pi 10^(-7) 2 Pi $CellContext`fres$$ 
-                 10^6 $CellContext`cond$$)]))^4))^0.5); $CellContext`Resr = 
-        1/(2 3.14 $CellContext`fres$$ 
-         10^6 $CellContext`Qcap$$ $CellContext`Cleg$$); $CellContext`Rmatch = 
-        1/(2 3.14 $CellContext`fres$$ 
-         10^6 $CellContext`Qmatch$$ $CellContext`Cmatch$$); \
+               Sqrt[2/(((((((4 Pi) 10^(-7)) 2) Pi) $CellContext`fres$$) 
+                  10^6) $CellContext`cond$$)]))^4))^0.5); $CellContext`Resr = 
+        1/(((((2 3.14) $CellContext`fres$$) 
+           10^6) $CellContext`Qcap$$) $CellContext`Cleg$$); \
+$CellContext`Rmatch = 
+        1/(((((2 3.14) $CellContext`fres$$) 
+           10^6) $CellContext`Qmatch$$) $CellContext`Cmatch$$); \
 $CellContext`Rcomp = $CellContext`Resr + $CellContext`Rmatch; 
        Subscript[$CellContext`Q, $CellContext`sol] = 
-        N[2 Pi $CellContext`fres$$ 
-          10^6 $CellContext`Lsol/(($CellContext`Raclg + \
+        N[(((2 Pi) $CellContext`fres$$) 
+           10^6) ($CellContext`Lsol/(($CellContext`Raclg + \
 $CellContext`Rx)/$CellContext`Temperature$$ + $CellContext`y$$ 
-           Subscript[$CellContext`R, $CellContext`sm]), 4]; 
+            Subscript[$CellContext`R, $CellContext`sm])), 4]; 
        Subscript[$CellContext`t$$, $CellContext`loop] = 
-        EngineeringForm[(2 Subscript[$CellContext`Q, $CellContext`sol]/(2 
-           Pi $CellContext`fres$$ 10^6)) 
+        EngineeringForm[(
+           2 (Subscript[$CellContext`Q, $CellContext`sol]/(((2 
+              Pi) $CellContext`fres$$) 10^6))) 
           Log[$CellContext`Usol$$/
             10^(-8)]]; $CellContext`Rx = $CellContext`Rcomp + \
 $CellContext`Rp$$; 
@@ -1969,18 +1946,20 @@ $CellContext`Racrec/$CellContext`Temperature$$ + $CellContext`y$$
 $CellContext`Raclg/$CellContext`Temperature$$ + $CellContext`y$$ 
           Subscript[$CellContext`R, $CellContext`sm] + $CellContext`Rx; 
        Subscript[$CellContext`V, $CellContext`noise3] = 
-        Sqrt[4 Subscript[$CellContext`k, $CellContext`B] 300 
-          1024 (Subscript[$CellContext`R, $CellContext`eq] + 
+        Sqrt[(((4 Subscript[$CellContext`k, $CellContext`B]) 300) 1024) (
+           Subscript[$CellContext`R, $CellContext`eq] + 
            Subscript[$CellContext`R, $CellContext`sm])]; $CellContext`im = 
-        1 - 10^($CellContext`loss$$ 0.1); $CellContext`s1 = $CellContext`im (
-          4 Pi 10^(-7) $CellContext`nmax$$/
-          Sqrt[($CellContext`lc 10^3)^2 + ($CellContext`dc$$ 10^3)^2]) 2 
-         Pi $CellContext`fres$$ 10^6 (1/Sqrt[
+        1 - 10^($CellContext`loss$$ 
+          0.1); $CellContext`s1 = ((((($CellContext`im (((4 Pi) 
+                10^(-7)) ($CellContext`nmax$$/
+                Sqrt[($CellContext`lc 10^3)^2 + ($CellContext`dc$$ 10^3)^2])))
+               2) Pi) $CellContext`fres$$) 10^6) (1/Sqrt[
            
            Subscript[$CellContext`R, $CellContext`eq]]); $CellContext`s2 = \
-$CellContext`im (4 Pi 10^(-7)/(2 ($CellContext`dc$$ 10^3))) ($CellContext`lc 
-          10^3/Sqrt[($CellContext`lc 10^3)^2 + ($CellContext`dc$$ 10^3)^2]) 2 
-         Pi $CellContext`fres$$ 10^6 (1/Sqrt[
+(((((($CellContext`im ((4 Pi) (10^(-7)/(
+                 2 ($CellContext`dc$$ 10^3))))) ($CellContext`lc (10^3/
+                Sqrt[($CellContext`lc 10^3)^2 + ($CellContext`dc$$ 10^3)^2])))
+               2) Pi) $CellContext`fres$$) 10^6) (1/Sqrt[
            
            Subscript[$CellContext`RR, $CellContext`eq]]); \
 $CellContext`relSNR2 = $CellContext`s1/$CellContext`Sr$$; \
@@ -1993,18 +1972,18 @@ $CellContext`coilloss = (Subscript[$CellContext`R, $CellContext`eq]/(
           Subscript[$CellContext`R, $CellContext`sm])) 
          100; $CellContext`Zm2 = -(
           Sqrt[Subscript[$CellContext`R, $CellContext`eq] + 
-            Subscript[$CellContext`R, $CellContext`sm]] 50/Sqrt[
-          50 - (Subscript[$CellContext`R, $CellContext`eq] + 
-           Subscript[$CellContext`R, $CellContext`sm])]); $CellContext`Cm2 = (
-          1/(2 (-$CellContext`Zm2) 2 3.14 $CellContext`fres$$ 10^6)) 
+            Subscript[$CellContext`R, $CellContext`sm]] (50/Sqrt[
+           50 - (Subscript[$CellContext`R, $CellContext`eq] + 
+            Subscript[$CellContext`R, $CellContext`sm])])); $CellContext`Cm2 = \
+(1/(((((2 (-$CellContext`Zm2)) 2) 3.14) $CellContext`fres$$) 10^6)) 
          10^12; $CellContext`Mxy = 
-        10 (((1 - E^((-3) 10^(-3)/(150 10^(-3)))) 
-           E^((-60) 10^(-6)) (0.1919/Sqrt[0.1919^2 - (60 10^(-6))^2]) Sin[
-             Sqrt[0.1919^2 - (60 10^(-6))^2]] 
-           E^(-($CellContext`TE$$/$CellContext`T2$$) - 60 10^(-6)))/(1 - 
-          E^((-3) 10^(-3)/(150 10^(-3))) E^((-60) 10^(-6)) (Cos[
-             Sqrt[0.1919^2 - (60 10^(-6))^2]] + (60 10^(-6)/Sqrt[
-             0.1919^2 - (60 10^(-6))^2]) Sin[
+        10 ((((((1 - E^((-3) (10^(-3)/(150 10^(-3))))) E^((-60) 10^(-6))) (
+              0.1919/Sqrt[0.1919^2 - (60 10^(-6))^2])) Sin[
+              Sqrt[0.1919^2 - (60 10^(-6))^2]]) 
+           E^(-($CellContext`TE$$/$CellContext`T2$$) - 60 10^(-6)))/(
+          1 - (E^((-3) (10^(-3)/(150 10^(-3)))) E^((-60) 10^(-6))) (Cos[
+             Sqrt[0.1919^2 - (60 10^(-6))^2]] + (
+             60 (10^(-6)/Sqrt[0.1919^2 - (60 10^(-6))^2])) Sin[
               Sqrt[0.1919^2 - (60 10^(-6))^2]]))); Style[
          Grid[{{
             Item[
@@ -2116,7 +2095,7 @@ $CellContext`coilloss = (Subscript[$CellContext`R, $CellContext`eq]/(
          "Row"}, {{$CellContext`Sr$$, 1, "Reference Coil - rel. SNR"}, 0.1, 
          100, Appearance -> "Labeled"}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{1012., {501., 509.}},
+     ImageSizeCache->{1029., {580., 588.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -2185,8 +2164,8 @@ Cell[BoxData[""], "Input",
   3.7975960353190928`*^9}},ExpressionUUID->"480efa71-8008-4871-9eef-\
 b75d9bfd969f"]
 },
-WindowSize->{1664, 991},
-WindowMargins->{{168, Automatic}, {Automatic, 36}},
+WindowSize->{1664, 962},
+WindowMargins->{{168, Automatic}, {Automatic, 65}},
 Magnification:>1.4 Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
@@ -2203,23 +2182,23 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 6113, 168, 586, "Input",ExpressionUUID->"342f2510-b3c6-4680-b2f9-720093e21d2e",
+Cell[580, 22, 5664, 141, 558, "Input",ExpressionUUID->"342f2510-b3c6-4680-b2f9-720093e21d2e",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[6696, 192, 66477, 1549, 6833, "Input",ExpressionUUID->"0f6c20bd-7b15-401b-9075-e439878d68b8",
+Cell[6247, 165, 66477, 1549, 6833, "Input",ExpressionUUID->"0f6c20bd-7b15-401b-9075-e439878d68b8",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
-Cell[73188, 1744, 21090, 386, 1036, "Output",ExpressionUUID->"d55c5078-aa80-4807-8b47-1401002be6e1"],
-Cell[94281, 2132, 152, 3, 40, InheritFromParent,ExpressionUUID->"c7d41e8a-5a27-40b1-9484-8fffeb5f55b6"],
-Cell[94436, 2137, 152, 3, 40, InheritFromParent,ExpressionUUID->"c1c1b54f-9d6e-4f9c-a17f-2993896d322b"],
-Cell[94591, 2142, 152, 3, 40, InheritFromParent,ExpressionUUID->"e7529c9c-772a-43ea-9e0f-8dff58fe39b1"],
-Cell[94746, 2147, 150, 3, 40, "Input",ExpressionUUID->"4db341a7-116a-4015-8bcb-79ccc0483157"],
-Cell[94899, 2152, 154, 3, 40, "Input",ExpressionUUID->"112d5234-1258-4949-86fb-fd0f310ed7a7"],
-Cell[95056, 2157, 154, 3, 40, "Input",ExpressionUUID->"34137669-2f1d-4e2f-a1bc-4aa98cc6e900"],
-Cell[95213, 2162, 156, 3, 40, "Input",ExpressionUUID->"ad1dd51f-2c54-4dff-b3cc-29457c0b6abf"],
-Cell[95372, 2167, 153, 3, 40, "Input",ExpressionUUID->"61ebf198-bb5a-40e6-8aba-3d3ad4cd2564"],
-Cell[95528, 2172, 154, 3, 40, "Input",ExpressionUUID->"b53b812a-20d0-4a64-acd6-765f151f4570"],
-Cell[95685, 2177, 156, 3, 40, "Input",ExpressionUUID->"ce4852b9-e35e-4554-b12f-0fb5b9954fd6"],
-Cell[95844, 2182, 156, 3, 40, "Input",ExpressionUUID->"480efa71-8008-4871-9eef-b75d9bfd969f"]
+Cell[72739, 1717, 21546, 392, 1194, "Output",ExpressionUUID->"d55c5078-aa80-4807-8b47-1401002be6e1"],
+Cell[94288, 2111, 152, 3, 40, InheritFromParent,ExpressionUUID->"c7d41e8a-5a27-40b1-9484-8fffeb5f55b6"],
+Cell[94443, 2116, 152, 3, 40, InheritFromParent,ExpressionUUID->"c1c1b54f-9d6e-4f9c-a17f-2993896d322b"],
+Cell[94598, 2121, 152, 3, 40, InheritFromParent,ExpressionUUID->"e7529c9c-772a-43ea-9e0f-8dff58fe39b1"],
+Cell[94753, 2126, 150, 3, 40, "Input",ExpressionUUID->"4db341a7-116a-4015-8bcb-79ccc0483157"],
+Cell[94906, 2131, 154, 3, 40, "Input",ExpressionUUID->"112d5234-1258-4949-86fb-fd0f310ed7a7"],
+Cell[95063, 2136, 154, 3, 40, "Input",ExpressionUUID->"34137669-2f1d-4e2f-a1bc-4aa98cc6e900"],
+Cell[95220, 2141, 156, 3, 40, "Input",ExpressionUUID->"ad1dd51f-2c54-4dff-b3cc-29457c0b6abf"],
+Cell[95379, 2146, 153, 3, 40, "Input",ExpressionUUID->"61ebf198-bb5a-40e6-8aba-3d3ad4cd2564"],
+Cell[95535, 2151, 154, 3, 40, "Input",ExpressionUUID->"b53b812a-20d0-4a64-acd6-765f151f4570"],
+Cell[95692, 2156, 156, 3, 40, "Input",ExpressionUUID->"ce4852b9-e35e-4554-b12f-0fb5b9954fd6"],
+Cell[95851, 2161, 156, 3, 40, "Input",ExpressionUUID->"480efa71-8008-4871-9eef-b75d9bfd969f"]
 }
 ]
 *)
